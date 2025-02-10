@@ -2,8 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model = pickle.load(0pen(f'{working_dir}/model.pkl', 'rb'))
 
 # Define diagnosis mapping dictionary
 diagnoses = {
