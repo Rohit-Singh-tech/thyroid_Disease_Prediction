@@ -3,7 +3,7 @@ import pickle
 
 # Load the trained model
 with open('model.pkl', 'rb') as f:
-    model = pickle.load('f','rb')
+    model = pickle.load('f','r')
 
 # Define diagnosis mapping dictionary
 diagnoses = {
