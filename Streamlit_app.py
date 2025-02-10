@@ -65,7 +65,7 @@ def main():
     # Sidebar
     st.sidebar.write("<h1 style='color: #F63366; font-size: 36px;'>Group 01</h1>", unsafe_allow_html=True)
 
-    st.sidebar.write("GitHub profile : (https://github.com/Rohit-Singh-tech/thyroid_Disease_Prediction)"
+    st.sidebar.write("GitHub profile : (https://github.com/Rohit-Singh-tech/thyroid_Disease_Prediction)")
 
     st.sidebar.title("About Project :")
     st.sidebar.write("This Streamlit app serves as a Thyroid Diagnosis Predictor. It utilizes machine learning to predict thyroid diagnosis based on various patient attributes such as age, sex, medical history, and laboratory test results. Users can input patient data and receive an immediate diagnosis prediction, helping medical professionals make informed decisions efficiently.")
